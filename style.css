@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+
+    /* ===================Colors================================= */
+   
+   /* ============CARD HEADER COLORS=============== */
+    --user-card-top-color:hsl(246, 80%, 60%);
+    --work-card-header-color:hsl(15, 100%, 70%);
+    --play-card-header-color:hsl(195, 74%, 62%);
+    --study-card-header-color:hsl(348, 100%, 68%);
+    --exercise-card-header-color:hsl(145, 58%, 55%);
+    --social-card-header-color:hsl(264, 64%, 52%);
+    --self-care-card-header-color:hsl(43, 84%, 65%);
+    /* ========Primary color============= */
+    --bg-color:hsl(226, 43%, 10%);
+    --primary-color:white; 
+    --secondary-color:hsl(236, 100%, 87%);
+    --menu-items-color:hsl(236, 100%, 87%);
+    /* =======CARDS BODY COLOR========== */
+    --cards-body-color:hsl(235, 46%, 20%);
+    --cards-body-hover-color:hsl(235, 45%, 61%);
+    
+    /* ======Fonts================== */
+    --card-titles-font-size:18px;
+    --main-font-family:'Rubik', sans-serif;
+    
+}
+body{
+    background-color: var(--bg-color);
+    color:var(--primary-color);
+    font-family: var(--main-font-family);
+    list-style: none;
+    text-decoration: none;
+}

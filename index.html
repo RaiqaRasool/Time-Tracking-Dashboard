@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Time tracking Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -27,13 +26,13 @@
     </div>
     <nav class="user-menu">
             <ul class="user-menu-list">
-                <li class="user-menu-item common">
+                <li class="user-menu-item common daily-menu-item">
                     Daily 
                 </li>
-                <li class="user-menu-item common">
+                <li class="user-menu-item common weekly-menu-item">
                     Weekly
                 </li>
-                <li class="user-menu-item common">
+                <li class="user-menu-item common  monthly-menu-item">
                     Monthly
                 </li>
             </ul>
@@ -89,7 +88,7 @@
             </div>
         </div>
         <div class="card-title study-card-title">
-            0hr
+            0hrs
         </div>
         <div class="card-last-hours study-card-last-hours common ">
             Yesterday - 1hrs
@@ -101,7 +100,7 @@
             <img src="/images/icon-exercise.svg" alt="exercise svg" class="card-header-svg exercise-card-header-svg">
         </div>
         <div class="card-body exercise-card-body">
-        <div class="tag-and-ham">
+        <div class="tag-and-ham exercise-tag-and-ham">
             <div class="card-tag">Exercise</div>
             <div class="card-ham">
                 <img src="/images/icon-ellipsis.svg">
@@ -154,5 +153,6 @@
         </div>
     </div>
 </main>
+<script src="app.js"></script>
 </body>
 </html>

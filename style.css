@@ -229,6 +229,9 @@ main{
         margin-top:-20px;
         margin-bottom:0px;
     }
+    .spacer{
+        height: 30px;
+    }
 }
 @media screen and (max-width:400px) {
     .card-header img{

@@ -134,7 +134,12 @@ main{
     padding:20px 20px 0px 20px;
     background-color: var(--cards-body-color);
     height:82%;
-    border-radius: 10px;;
+    border-radius: 10px;
+    transition: 0.3s ease-in all;
+}
+.card-body:hover{
+    cursor: pointer;
+    background-color: var(--cards-body-hover-color);
 }
 .work-card{
     background-color: var(--work-card-header-color);

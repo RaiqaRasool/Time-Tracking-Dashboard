@@ -1,3 +1,4 @@
+console.log("hello")
 const exercise=document.getElementsByClassName('exercise-card-title');
 const work=document.getElementsByClassName('work-card-title');
 const study=document.getElementsByClassName('study-card-title');
@@ -34,7 +35,7 @@ function daily_schedule(){
     self_care.innerHTML="0hrs";
     self_care_previous.innerHTML="Yesterday - 1hr";
 }
-daily.addEventListener("onclick",daily_schedule);
+daily.addEventListener("click",daily_schedule);
 
 function weekly_schedule(){
     daily.style.color="hsl(236, 100%, 87%)";
@@ -54,7 +55,7 @@ function weekly_schedule(){
     self_care.innerHTML="2hrs";
     self_care_previous.innerHTML="Last Week - 2hrs";
 }
-weekly.addEventListener("onclick",weekly_schedule);
+weekly.addEventListener("click",weekly_schedule);
 
 function monthly_schedule(){
     daily.style.color="hsl(236, 100%, 87%)";
@@ -74,4 +75,4 @@ function monthly_schedule(){
     self_care.innerHTML="7hrs";
     self_care_previous.innerHTML="Last Month - 11hrs";
 }
-monthly.addEventListener("onclick",monthly_schedule);
+monthly.addEventListener("click",monthly_schedule);

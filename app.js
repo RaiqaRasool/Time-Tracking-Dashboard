@@ -33,6 +33,10 @@ function daily_schedule(){
     self_care[0].innerHTML="0hrs";
     self_care_previous[0].innerHTML="Yesterday - 1hr";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a389ac42a943cba10f51c59d612a0cfb35d90bd
 daily[0].addEventListener("click",daily_schedule);
 
 function weekly_schedule(){
@@ -53,6 +57,10 @@ function weekly_schedule(){
     self_care[0].innerHTML="2hrs";
     self_care_previous[0].innerHTML="Last Week - 2hrs";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a389ac42a943cba10f51c59d612a0cfb35d90bd
 weekly[0].addEventListener("click",weekly_schedule);
 
 function monthly_schedule(){

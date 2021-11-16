@@ -15,63 +15,74 @@ const self_care_previous=document.getElementsByClassName("self-care-card-last-ho
 const daily=document.getElementsByClassName("daily-menu-item");
 const weekly=document.getElementsByClassName("weekly-menu-item");
 const monthly=document.getElementsByClassName("monthly-menu-item");
-
 function daily_schedule(){
-    daily.style.color="white";
-    weekly.style.color="hsl(236, 100%, 87%)";
-    monthly.style.color="hsl(236, 100%, 87%)";
+    daily[0].style.color="white";[0]
+    weekly[0].style.color="hsl(236, 100%, 87%)";
+    monthly[0].style.color="hsl(236, 100%, 87%)";
 
-    work.innerHTML="5hrs";
-    work_previous.innerHTML="Yesterday - 7hrs";
-    play.innerHTML="1hr";
-    play_previous.innerHTML="Yesterday - 2hrs";
-    study.innerHTML="0hrs";
-    study_previous.innerHTML="Yesterday - 1hr";
-    exercise.innerHTML="1hr";
-    exercise_previous.innerHTML="Yesterday - 1hr";
-    social.innerHTML="1hr";
-    social_previous.innerHTML="Yesterday - 3hrs";
-    self_care.innerHTML="0hrs";
-    self_care_previous.innerHTML="Yesterday - 1hr";
+    work[0].innerHTML="5hrs";
+    work_previous[0].innerHTML="Yesterday - 7hrs";
+    play[0].innerHTML="1hr";
+    play_previous[0].innerHTML="Yesterday - 2hrs";
+    study[0].innerHTML="0hrs";
+    study_previous[0].innerHTML="Yesterday - 1hr";
+    exercise[0].innerHTML="1hr";[0]
+    exercise_previous[0].innerHTML="Yesterday - 1hr";
+    social[0].innerHTML="1hr";
+    social_previous[0].innerHTML="Yesterday - 3hrs";
+    self_care[0].innerHTML="0hrs";
+    self_care_previous[0].innerHTML="Yesterday - 1hr";
 }
+<<<<<<< HEAD
+daily[0].addEventListener("click",daily_schedule);
+=======
 daily.addEventListener("onclick",daily_schedule);
+>>>>>>> parent of 8c97165 (Dealing with github not showing image issue)
 
 function weekly_schedule(){
-    daily.style.color="hsl(236, 100%, 87%)";
-    weekly.style.color="white";
-    monthly.style.color="hsl(236, 100%, 87%)";
+    daily[0].style.color="hsl(236, 100%, 87%)";
+    weekly[0].style.color="white";
+    monthly[0].style.color="hsl(236, 100%, 87%)";
 
-    work.innerHTML="32hrs";
-    work_previous.innerHTML="Last Week - 36hrs";
+    work[0].innerHTML="32hrs";
+    work_previous[0].innerHTML="Last Week - 36hrs";
     play.innerHTML="10hrs";
-    play_previous.innerHTML="Last Week - 8hrs";
-    study.innerHTML="0hrs";
-    study_previous.innerHTML="Last Week - 1hr";
-    exercise.innerHTML="4hrs";
-    exercise_previous.innerHTML="Last Week - 5hrs";
-    social.innerHTML="5hrs";
-    social_previous.innerHTML="Last Week - 10hrs";
-    self_care.innerHTML="2hrs";
-    self_care_previous.innerHTML="Last Week - 2hrs";
+    play_previous[0].innerHTML="Last Week - 8hrs";
+    study[0].innerHTML="0hrs";
+    study_previous[0].innerHTML="Last Week - 1hr";
+    exercise[0].innerHTML="4hrs";
+    exercise_previous[0].innerHTML="Last Week - 5hrs";
+    social[0].innerHTML="5hrs";
+    social_previous[0].innerHTML="Last Week - 10hrs";
+    self_care[0].innerHTML="2hrs";
+    self_care_previous[0].innerHTML="Last Week - 2hrs";
 }
+<<<<<<< HEAD
+weekly[0].addEventListener("click",weekly_schedule);
+=======
 weekly.addEventListener("onclick",weekly_schedule);
+>>>>>>> parent of 8c97165 (Dealing with github not showing image issue)
 
 function monthly_schedule(){
-    daily.style.color="hsl(236, 100%, 87%)";
-    weekly.style.color="hsl(236, 100%, 87%)";
-    monthly.style.color="white";
+    daily[0].style.color="hsl(236, 100%, 87%)";
+    weekly[0].style.color="hsl(236, 100%, 87%)";
+    monthly[0].style.color="white";
 
-    work.innerHTML="103hrs";
-    work_previous.innerHTML="Last Month - 128hrs";
-    play.innerHTML="23hrs";
-    play_previous.innerHTML="Last Month - 29hrs";
-    study.innerHTML="13hrs";
-    study_previous.innerHTML="Last Month - 19hrs";
-    exercise.innerHTML="11hrs";
-    exercise_previous.innerHTML="Last Month - 18hrs";
-    social.innerHTML="21hrs";
-    social_previous.innerHTML="Last Month - 23hrs";
-    self_care.innerHTML="7hrs";
-    self_care_previous.innerHTML="Last Month - 11hrs";
+    work[0].innerHTML="103hrs";
+    work_previous[0].innerHTML="Last Month - 128hrs";
+    play[0].innerHTML="23hrs";
+    play_previous[0].innerHTML="Last Month - 29hrs";
+    study[0].innerHTML="13hrs";[0]
+    study_previous[0].innerHTML="Last Month - 19hrs";
+    exercise[0].innerHTML="11hrs";
+    exercise_previous[0].innerHTML="Last Month - 18hrs";
+    social[0].innerHTML="21hrs";
+    social_previous[0].innerHTML="Last Month - 23hrs";
+    self_care[0].innerHTML="7hrs";
+    self_care_previous[0].innerHTML="Last Month - 11hrs";
 }
+<<<<<<< HEAD
+monthly[0].addEventListener("click",monthly_schedule);
+=======
 monthly.addEventListener("onclick",monthly_schedule);
+>>>>>>> parent of 8c97165 (Dealing with github not showing image issue)

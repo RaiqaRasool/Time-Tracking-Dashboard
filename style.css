@@ -112,6 +112,7 @@ main{
 .card-title{
     font-size: 40px;
     font-weight: 300;
+    line-height: 60px;
 }
 .card{
     border-radius:10px;    
@@ -124,7 +125,7 @@ main{
     object-fit: fill;
     transform:scale(0.8);
     margin-top:-15px;
-    margin-left:60%;   
+    margin-left:60%; 
 }
 .exercise-card-header img{
     margin-top:-5px;
@@ -170,16 +171,67 @@ main{
     padding-bottom:10px;
     grid-template-columns: auto auto;
     align-items: center;
-    gap:90px;
+    justify-content: space-between;
     
 }
 .exercise-tag-and-ham{
    gap:70px;
 
 }
-.card-title{
-    line-height: 60px;
-}
 .user-card-title{
     line-height: 50px;
+}
+
+@media screen and (max-width:800px) {
+    main{
+        grid-template-columns: auto;
+    }
+    .user-card{
+        margin-left:0px;
+        margin-bottom: 0px;
+    }
+    .user-card-header{
+        display:grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        padding:15px;
+    }  
+    .user-menu-list{
+        display:grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: space-between;
+    } 
+    .card-header img{
+        margin-left: 80%;
+    }
+    .card-title{
+        font-size: 25px;
+        line-height: 40px;
+    } 
+    .tag-and-ham{
+        justify-content: space-between;
+    }
+    .card-title-and-last-hours{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        align-items: center;
+        justify-content: space-between;
+    }
+    .exercise-card{
+            margin-bottom: 0px;
+    }
+    .social-card{
+           height: 100%;
+    }
+    .self-care-card{
+        margin-bottom:0px;
+    }
+}
+@media screen and (max-width:400px) {
+    .card-header img{
+        margin-left:72%;
+    }
+    
 }

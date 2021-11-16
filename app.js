@@ -33,11 +33,8 @@ function daily_schedule(){
     self_care[0].innerHTML="0hrs";
     self_care_previous[0].innerHTML="Yesterday - 1hr";
 }
-<<<<<<< HEAD
+
 daily[0].addEventListener("click",daily_schedule);
-=======
-daily.addEventListener("onclick",daily_schedule);
->>>>>>> parent of 8c97165 (Dealing with github not showing image issue)
 
 function weekly_schedule(){
     daily[0].style.color="hsl(236, 100%, 87%)";
@@ -57,11 +54,8 @@ function weekly_schedule(){
     self_care[0].innerHTML="2hrs";
     self_care_previous[0].innerHTML="Last Week - 2hrs";
 }
-<<<<<<< HEAD
+
 weekly[0].addEventListener("click",weekly_schedule);
-=======
-weekly.addEventListener("onclick",weekly_schedule);
->>>>>>> parent of 8c97165 (Dealing with github not showing image issue)
 
 function monthly_schedule(){
     daily[0].style.color="hsl(236, 100%, 87%)";
@@ -81,8 +75,4 @@ function monthly_schedule(){
     self_care[0].innerHTML="7hrs";
     self_care_previous[0].innerHTML="Last Month - 11hrs";
 }
-<<<<<<< HEAD
 monthly[0].addEventListener("click",monthly_schedule);
-=======
-monthly.addEventListener("onclick",monthly_schedule);
->>>>>>> parent of 8c97165 (Dealing with github not showing image issue)
